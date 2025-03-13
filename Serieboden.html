@@ -11,8 +11,6 @@
 
 <script src="Serieboden.js"></script>
 
-<!--Byt ut dina pre element mot p eller h1 och fixa så att det ser ut på sättet som det gjorde innan du byte utt det-->
-<!--Idag eller för imorgon-->
     <div class="container">
     <div class="box" id="box1"><pre>Öppet Måndagar till Fredagar 11 till 18</pre></div> 
     <div class="box" id="box2"><img class="logo" src="Bilder/loggokalle_medium_0- (1).png"></div>
@@ -20,15 +18,18 @@
     <div class="box" id="box4"><img class="Animationcss" src="Bilder/animationsbild.png"></div> <!--Den här boxen för grill tecknen. Kan säkert fixas med java senare.-->
     </div>
 
-
+    <div id="Inloggning"> <!--Jag vill bara att det här ska dyka upp när jag använder Meny knappen-->
+      <div class="formus">
+        <label for="uname"  ><b>Användarnamn</b></label>
+        <input type="text" placeholder="" name="uname" required >
+        <label for="psw"><b>Lösenord</b></label>
+        <input type="password"placeholder="" name="psw" required>
+            
+        <button class="formu" id="ordning5" type="submit">Logga in</button>
+     
+      </div>
+    </div>
 <div class="Seriebodsbutiken"><img src="Bilder/Tillseriebodenbild2-min.png" alt="Bild av Seriebodens butik" width="635" height="400"><img src="Bilder/CIMG7498.JPG" alt="Bild av Seriebodens butik" width="612" height="400"></div><!--Behöves justera så den passar wireframen du har hemma.-->
-<!--Av någon anledning fungerar css för tillfället inte på width eller heigth för JPg bilden.-->
-
-
-
-<!--Därmed använde jag det här sättet.-->
-<!--För att få bla bakgrunds färgen till min navbar och texten ovanför den att stämma överänns med wireframen jag gjorde-->
-<!--använda jag Ms paints färg identifierings sak för att få till rätt färg.-->
 
 <nav class="navbar">
    <ul>
@@ -43,11 +44,7 @@
           <li class="positionering5"><a href=""><pre>  Köp & bytes 
  information</pre></a></li>
    </ul>
-
-<!--Värdet på den där färgen som finns mellan det ljusa gula är Rgb(232, 220, 0)-->
-<!--Tomma li linjet eller vad det än nu kallas kanske kan fixa till det, så du får rätt mellanrums utrymme.-->
 </nav>
-
 
 <div class="Textytan">
 <br>
@@ -59,8 +56,6 @@
 <p class="undertext">upp Sveriges största kundregister i branschen! Våra bud tål att jämföras med andra seriebutikers. Om du vill vet mer om våra vilkor,</p>
 <p class="undertext">våra garantier + allt allmänt gällande transaktioner i butiken, kan du gå in i Köp & bytes information.</p>
 </div>
-
-
 
 <!--Ska sitta vid botten av sidan med Telefonummret i vad som troligen blir en flexbox-->
 <!--Be Holger om att skriva upp hur man laddar upp till git igen-->
