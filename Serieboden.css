@@ -53,13 +53,13 @@ position: relative;
 bottom: 20%;
 }
 
-.Animationcss:hover{
+#Animationcss:hover{
 transform: rotate(90deg);
 animation-name: rotate;
 transition-duration: 0.5s;
 }
 
-.Animationcss{ 
+#Animationcss{ 
    margin-top: 35%;
    width: 50px;
    height: 50px;
@@ -71,18 +71,20 @@ transition-duration: 0.5s;
    background-color: rgb( 209, 209, 209);
 }
 
-#Inloggning{
+#Formulr{
 right: 1%;
 top: 13% ;
 position: absolute;
 flex-direction: column;
 font-family: Arial, Helvetica, sans-serif;
 border: 3px solid #f1f1f1b2;
+display: none;
+}
+
 input[type=text], input[type=password] {
   width: 150px;
   padding: 12px 20px;
   margin: 8px 0;
-  display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
   
@@ -114,7 +116,7 @@ button {
    }
  }
 }
-}
+
 
 button:hover {
    opacity: 0.8;
