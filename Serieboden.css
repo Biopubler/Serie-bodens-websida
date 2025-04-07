@@ -1,3 +1,23 @@
+@media screen and (max-width: 600px) {
+   /* Exempel på kod */
+   body {
+      background-color: rgb(255, 148, 148);
+   }
+   ul {
+      width: 50%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   body {
+      background-color: rgb(141, 255, 141);
+   }
+   ul {
+      width: 100%;
+   }
+
+}
+
 .container{
 display: flex;
 height: 75px;
