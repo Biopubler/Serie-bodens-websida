@@ -100,6 +100,17 @@ border: 0.5444646098003629vh solid #f1f1f1b2;
 display: none;
 }
 
+.Bild1tillbo{
+width: 115.24500907441016vh;
+height: 72.59528130671507vh;
+}
+
+
+.Bild2tillbo{
+width: 111vh;
+height: 72.59528130671507vh;
+}
+
 input[type=text], input[type=password] {
   width: 27.22323049001815vh;
   padding: 2.1778584392014517vh 3.629764065335753vh;
@@ -207,7 +218,6 @@ margin-top: 3%;
 left: 10%;
 right: 10%;
 width: 80%;
-height: 108.8929219600726vh;
 background-color: rgb(235, 235, 235);
 }
 
@@ -235,7 +245,7 @@ position: absolute;
    height: 45.37205081669691vh;
    margin-left: 71%;
    position:relative;
-   bottom: 30vh;
+   bottom: 20vh;
 }
 
 
