@@ -269,3 +269,23 @@ position:relative;
 margin-left: 43%;
 margin-right: 43%;
 }
+
+.texter{
+margin-left: 22.5%;
+margin-top: 15%;
+background-color: rgb(223, 221, 221);
+width: fit-content;
+height: fit-content;
+}
+
+.Rubrik2{
+margin-left: 10.5%;
+font-size: 6vh;
+}
+
+.text{
+font-size: 3.5vh;
+padding-left: 5vh ;
+padding-right: 5vh;
+}
+
