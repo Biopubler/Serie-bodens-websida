@@ -270,22 +270,56 @@ margin-left: 43%;
 margin-right: 43%;
 }
 
+.body2{
+   background: #1c1f2b;
+}
+
 .texter{
+display: flex;
+position: static;
+flex-direction: column;
 margin-left: 22.5%;
-margin-top: 15%;
+margin-top: 10%;
 background-color: rgb(223, 221, 221);
-width: fit-content;
-height: fit-content;
+width: 125vh;
+height: 60vh;
 }
 
 .Rubrik2{
-margin-left: 10.5%;
+font-style:rgb(60, 73, 0);
+align-self: center;
 font-size: 6vh;
+}
+
+#textis{
+margin-left: 10%;
+}
+
+
+#flyttartext{
+margin-left: 10%;   
+}
+
+#flyttartext1{
+margin-left: 29%;
+}
+
+#flyttartext2{
+margin-left: 20%;
+}
+
+#flyttartext3{
+margin-left: 26%;
 }
 
 .text{
 font-size: 3.5vh;
-padding-left: 5vh ;
-padding-right: 5vh;
+margin-left: 3%;
 }
 
+.card{
+   margin: 0 auto;
+   padding: 2 em;
+   width: 300px;
+   background: #1c1f2b;
+}
