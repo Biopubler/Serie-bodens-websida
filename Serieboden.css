@@ -245,7 +245,7 @@ position: absolute;
    height: 45.37205081669691vh;
    margin-left: 71%;
    position:relative;
-   bottom: 20vh;
+   bottom: 30vh;
 }
 
 
@@ -317,9 +317,22 @@ font-size: 3.5vh;
 margin-left: 3%;
 }
 
-.card{
-   margin: 0 auto;
-   padding: 2 em;
-   width: 300px;
-   background: #1c1f2b;
+.Serieboxen{
+margin-left: 80vh;
+}
+
+tr{
+   align-items: center;
+}
+table {
+   border: 1px solid;
+   border-collapse: collapse;
+   align-items: center;
+}
+td {
+   border: 1px solid;
+}
+
+th{
+   background-color: rgb(0, 0, 0);  
 }
