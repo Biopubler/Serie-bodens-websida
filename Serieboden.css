@@ -349,8 +349,25 @@ td{
 }
 
 .fint_fixande{
-margin-left: 100vh;
-border-width: 200vh;
+width: 138vh;
+background-color: rgb(96, 107, 108);
+height: 12vh;
+color: rgb(254, 154, 27);
+text-align: center;
+}
+
+#Gallileo{
+background-color: rgb(119, 133, 184);
+width: 138vh;
+height: 3vh;
+text-align: center;
+}
+
+.gallilejs{
+padding-top: 2%; /*Har inte den blekaste anningen om hur det här får texten till mitten 
+                   eller varför det jag satte som nedre delen av det jag använde för galleriets                          
+                   nedre halva av cellshading (#Gallileo) utgör 1/4 del av höjden av (.fint_fixande)
+                   fast ändå täcker 1/2 av ytan. Måste fixa det finns tid för det.*/
 }
 
 #griddy{
