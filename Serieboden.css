@@ -318,7 +318,7 @@ margin-left: 3%;
 }
 
 .Serieboxen{
-margin-top: 17%;
+margin-top: 20%;
 margin-left: 102vh;
 height: 100vh;
 position: absolute;
@@ -370,6 +370,16 @@ padding-top: 2%; /*Har inte den blekaste anningen om hur det här får texten ti
                    fast ändå täcker 1/2 av ytan. Måste fixa det finns tid för det.*/
 }
 
+span{
+padding: 3vh 59.7vh 2.8vh 59.7vh;
+border: 1vh solid black;
+}
+
+table{
+padding: 3vh 59.7vh 2.8vh 59.7vh;
+border: 2vh solid black;
+}
+
 #griddy{
 left: 3vh;
 display: grid;
@@ -377,4 +387,14 @@ gap: 9.07vh 18.14vh;
 grid-template-columns: auto auto auto;
 background-color: white;
 padding: 2em;
+}
+
+.Talbubbla{
+position: relative;
+width: 50vh;
+height: 33vh;
+}
+
+.fint_fixande_plus_Talbubbla{
+display: flex;
 }
