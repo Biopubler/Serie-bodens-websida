@@ -317,8 +317,11 @@ font-size: 3.5vh;
 margin-left: 3%;
 }
 
-.Serieboxen{
-margin-top: 20%;
+#Serieboxen{
+margin-top: 0.1%;
+padding: 3vh 3vh 1.8vh 0vh;
+background-color: rgb(61, 68, 94);
+border: solid 1vh;
 margin-left: 102vh;
 height: 100vh;
 position: absolute;
@@ -387,14 +390,4 @@ gap: 9.07vh 18.14vh;
 grid-template-columns: auto auto auto;
 background-color: white;
 padding: 2em;
-}
-
-.Talbubbla{
-position: relative;
-width: 50vh;
-height: 33vh;
-}
-
-.fint_fixande_plus_Talbubbla{
-display: flex;
 }
