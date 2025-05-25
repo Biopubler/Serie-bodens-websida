@@ -398,6 +398,18 @@ background-repeat: no-repeat;
 background-size:cover;
 }
 
+.Omossparagrafer{
+display: flex;
+position: static;
+flex-direction: column;
+margin-left: 22.5%;
+margin-top: 10%;
+background-color: rgb(223, 221, 221);
+width: 125vh;
+height: 50vh;
+}
+
+
 .historia{
    margin-left: 29%;
 }
