@@ -15,9 +15,3 @@ else {
 }
 });
 };
-
-/* Försöker fixa men det kan ta ett tag. const Serieboxen = document.getElementById("Serieboxen");
-Animationcss.addEventListener("click", (event) =>{
-
-
- } */

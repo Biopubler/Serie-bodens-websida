@@ -391,3 +391,18 @@ grid-template-columns: auto auto auto;
 background-color: white;
 padding: 2em;
 }
+
+.bakgrund{
+background-image: url(Bilder/Bildavbutikensinsida.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+.historia{
+   margin-left: 29%;
+}
+
+.Historisktext{
+margin-left: 2%;
+font-size: large;
+}
